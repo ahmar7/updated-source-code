@@ -84,6 +84,8 @@
   font-family: "Space Grotesk";
   font-display: swap;
   font-style: normal;
+  flex-direction: column;
+
   font-weight: 600;
   font-size: 12px;
   line-height: 125%;

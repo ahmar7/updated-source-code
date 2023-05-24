@@ -30,7 +30,7 @@ export default function Strings() {
 
     // buyBeforeTheEnd: "Hurry before the end of presale!",
     buyBeforeTheEnd: "Please wait for announcements",
-    buyBefore: "Stay tuned for IDO announcements. Launch price:",
+    buyBefore: "Stay tuned for IDO announcements. ",
     soldTtl: "Sold",
     raisedTtl: "Raised",
     connectWallet: "Connect Wallet",

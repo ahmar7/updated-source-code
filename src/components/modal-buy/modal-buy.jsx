@@ -50,7 +50,7 @@ export default function ModalBuy({
 
   const updatePayAmount = (val) => {
     setPayAmount(
-      parseFloat(val * 0.07).toLocaleString("en-US")
+      parseFloat(val * 0.12).toLocaleString("en-US")
     );
 
 
@@ -58,6 +58,7 @@ export default function ModalBuy({
 
   const updateTokenAmount = (val) => {
     setinitialAmount(val)
+    console.log(val);
 
     val = val.replace(/[^0-9]/g, "");
     setBuyAmount(val);
@@ -183,35 +184,35 @@ export default function ModalBuy({
                     </p>
                   </div>
                   <div className={styles.tokensToBuyContainer}>
-                    <button onClick={() => changeAmountHandler("3000")}>
-                      3,000 SWDTKN
+                    <button onClick={() => changeAmountHandler("20000")}>
+                     20,000 SWDTKN
                     </button>
-                    <button className=" rel-pos" onClick={() => changeAmountHandler("5000")}>
-                      5,000 SWDTKN
+                    <button className=" rel-pos" onClick={() => changeAmountHandler("35000")}>
+                      35,000 SWDTKN
                       <span className="float-num">
                         +5% bonus
                       </span>
                     </button>
-                    <button className="md-top-sp rel-pos" onClick={() => changeAmountHandler("8000")}>
-                      8,000 SWDTKN
+                    <button className="md-top-sp rel-pos" onClick={() => changeAmountHandler("55000")}>
+                      55,000 SWDTKN
                       <span className="float-num">
                         +10% bonus
                       </span>
                     </button>
-                    <button className="top-sp rel-pos" onClick={() => changeAmountHandler("10000")}>
-                      10,000 SWDTKN
+                    <button className="top-sp rel-pos" onClick={() => changeAmountHandler("70000")}>
+                      70,000 SWDTKN
                       <span className="float-num">
                         +15% bonus
                       </span>
                     </button>
-                    <button className="top-sp rel-pos" onClick={() => changeAmountHandler("15000")}>
-                      15,000 SWDTKN
+                    <button className="top-sp rel-pos" onClick={() => changeAmountHandler("100000")}>
+                      100,000 SWDTKN
                       <span className="float-num">
                         +20% bonus
                       </span>
                     </button>
-                    <button className="top-sp rel-pos" onClick={() => changeAmountHandler("20000")}>
-                      20,000 SWDTKN
+                    <button className="top-sp rel-pos" onClick={() => changeAmountHandler("140000")}>
+                      140,000 SWDTKN
                       <span className="float-num">
                         +25% bonus
                       </span>

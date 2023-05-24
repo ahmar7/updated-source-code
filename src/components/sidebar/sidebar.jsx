@@ -250,20 +250,20 @@ export default function Sidebar({ showSidebar, setShowSidebar }) {
           <NavLink to="/termsandconditions/" className={styles.link}>
             {strings.termsAndConds}
           </NavLink>
-          <Link
+          <a
             href="/assets/aml-hitbox.pdf"
             target="_blank"
             className={styles.link}
           >
             {strings.amlPolicy}
-          </Link>
-          <Link
+          </a>
+          <a
             href="/assets/SWDTKN-SALE-Terms-and-Conditions.pdf"
             className={styles.link}
             target="_blank"
           >
             {strings.salePolicy}
-          </Link>
+          </a>
           <a href="/sitemap.xml" target="_blank" className={styles.link}>
             {strings.sitemap}
           </a>

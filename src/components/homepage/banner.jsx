@@ -560,7 +560,7 @@ export default function Banner() {
                     </span>
                     <span className={styles.amountAndText}>
                       {/* 1 {config.tokenSymbol} = {presaleData.currentPrice} USDT */}
-                      1 {config.tokenSymbol} = <span className={styles.gold_bg}>0.080 USDT</span>
+                      1 {config.tokenSymbol} = <span className={styles.gold_bg}>0.012 USDT</span>
                     </span>
                   </div>
                 </div>
@@ -569,7 +569,11 @@ export default function Banner() {
                   {strings.buyBefore
                     .replace("{STAGE}", presaleData.currentStage + 2)
                     .replace("{PRICE}", presaleData.nextPrice)}
-                  <span className="red-high">$0.10</span>
+                    <br />
+                
+                 <span>
+                    Launch price: <span className="red-high">$0.015</span>
+                 </span>
                 </p>
                 {/* ) : (
                   <p className={styles.info}>{strings.buyBeforeTheEnd}</p>

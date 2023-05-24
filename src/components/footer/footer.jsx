@@ -20,7 +20,7 @@ export default function Footer() {
           target="_blank"
           className={styles.link}
         >
-          {strings.amlPolicy}g
+          {strings.amlPolicy}
         </a>
         <Link to="/termsandconditions/" className={styles.link}>
           {strings.termsAndConds}

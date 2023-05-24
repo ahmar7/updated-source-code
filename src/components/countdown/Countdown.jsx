@@ -13,7 +13,7 @@ const Countdown = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       const now = new Date().getTime();
-      const endDate = new Date('2023-05-20T23:00:00Z').getTime();
+      const endDate = new Date('2023-06-09T23:00:00Z').getTime();
       const distance = endDate - now;
 
       if (distance < 0) {
